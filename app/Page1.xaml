@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app.Page1">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Spacing="0" x:Name="spacelayoutmain">
+
+            <StackLayout x:Name="stackLayout" Spacing="0" Orientation="Horizontal">
+
+                <BoxView Color="Yellow" WidthRequest="133" HeightRequest="133"  />
+                <BoxView Color="Red" WidthRequest="133" HeightRequest="133" />
+                <BoxView Color="ForestGreen" WidthRequest="133" HeightRequest="133" />
+            </StackLayout>
+
+
+
+            <StackLayout x:Name="stackLayout1" Spacing="0" Orientation="Horizontal">
+
+                <BoxView Color="Black" WidthRequest="400" HeightRequest="200"  />
+
+            </StackLayout>
+            <StackLayout x:Name="stackLayout2" Spacing="0" Orientation="Horizontal">
+
+                <BoxView Color="blue" WidthRequest="200" HeightRequest="200"  />
+                <BoxView Color="LightSkyBlue" WidthRequest="200" HeightRequest="200"  />
+
+            </StackLayout>
+            <StackLayout x:Name="stackLayout3" Spacing="0" Orientation="Horizontal">
+
+                <BoxView Color="Red" WidthRequest="400" HeightRequest="150"  />
+
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
